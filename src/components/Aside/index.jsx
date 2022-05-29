@@ -1,4 +1,5 @@
 import { Drawer } from "@mui/material";
+import { useHistory } from "react-router-dom";
 import { useState } from "react";
 import { AsideComp, Box, Line } from "./styles";
 import Button from "../Button";
@@ -19,6 +20,12 @@ function Aside() {
     return "<Letícia />";
   };
 
+  const history = useHistory();
+
+  const handleNavigation = (path) => {
+    return history.push(path);
+  };
+
   return (
     <AsideComp>
       <Button className="btnOpen" onClick={() => setIsDrawerOpen(true)}>
@@ -32,14 +39,24 @@ function Aside() {
       >
         <Box>
           <div>
-            <h1>
+            <h1 onClick={() => handleNavigation("/")}>
               <Leticia />
             </h1>
           </div>
           <nav>
-            <Button className="btnNav">Sobre</Button>
+            <Button
+              className="btnNav"
+              onClick={() => handleNavigation("/about")}
+            >
+              Sobre
+            </Button>
             <Line />
-            <Button className="btnNav">Projetos</Button>
+            <Button
+              className="btnNav"
+              onClick={() => handleNavigation("/projects")}
+            >
+              Projetos
+            </Button>
             <Line />
             <Button className="btnNav">
               <a href={CVLeticia} download>

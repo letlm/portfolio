@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const AsideComp = styled.aside`
-  width: 100%;
+  width: 100px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 
   .btnOpen {
     background: transparent;
@@ -34,6 +34,7 @@ export const Box = styled.div`
   h1 {
     font-size: 25px;
     margin-top: 30px;
+    cursor: pointer;
   }
 
   nav {

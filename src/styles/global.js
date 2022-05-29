@@ -25,7 +25,7 @@ export default createGlobalStyle`
         --green-0: #659377;
         --green-1:  #44604F;
         --green-2: #1c8b6a;
-        --green-3: #2b707c;
+        --green-3: #29ad78;
         --black: #000000;
         --white: #FFFFFF;
     }
@@ -33,7 +33,7 @@ export default createGlobalStyle`
     body {
         height: 100vh;
         width: 100%;
-        background: linear-gradient(-45deg, #2b707c, #44604f, #1c8b6a, #659377);
+        background: linear-gradient(-45deg, #29ad78, #44604f, #1c8b6a, #659377);
         background-size: 400% 400%;
         color: var(--white);
         display: flex;
