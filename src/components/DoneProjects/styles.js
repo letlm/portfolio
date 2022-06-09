@@ -6,32 +6,33 @@ export const Container = styled.main`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: 80vh;
 
-  .container {
+  .containerProject {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
-
+    width: 100%;
+    height: 500px;
     border-bottom: 2px solid black;
   }
 
   .title {
     display: flex;
     justify-content: center;
-    background-color: var(--white);
+    background-color: var(--cream);
     width: 40%;
     font-family: sans-serif;
     letter-spacing: 1px;
     color: var(--black);
-    height: 600px;
+    height: 500px;
     align-items: center;
   }
 
   .imagens {
-    height: 600px;
+    height: 500px;
     width: 60%;
-    background-color: var(--green-1);
+    background-color: var(--pink-2);
     display: flex;
     justify-content: center;
     align-items: center;

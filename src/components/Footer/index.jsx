@@ -13,7 +13,7 @@ function Footer() {
       <Info>
         <h1>Feito por Letícia Leal Moreira </h1>
         <p>-</p>
-        <h2>Front-End Developer</h2>
+        <h2>Front End Developer</h2>
       </Info>
       <Contact>
         <a href={Linkedin} target="_blank" rel="noopener noreferrer">

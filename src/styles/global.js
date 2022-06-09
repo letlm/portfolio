@@ -22,10 +22,10 @@ export default createGlobalStyle`
     }
 
     :root {
-        --green-0: #659377;
-        --green-1:  #44604F;
-        --green-2: #1c8b6a;
-        --green-3: #29ad78;
+        --cream: #F6E7D8;
+        --pink-1:  #F1D1D0;
+        --pink-2: #FBACCC;
+        --pink-3: #F875AA;
         --black: #000000;
         --white: #FFFFFF;
     }
@@ -33,15 +33,16 @@ export default createGlobalStyle`
     body {
         height: 100vh;
         width: 100%;
-        background: linear-gradient(-45deg, #29ad78, #44604f, #1c8b6a, #659377);
-        background-size: 400% 400%;
+        //background: linear-gradient(-45deg, #F6E7D8, #F68989, #C65D7B, #874356);
+        //background-size: 400% 400%;
         color: var(--white);
         display: flex;
         justify-content: center;
         align-items: center;
         box-sizing: border-box;
         font-family: 'Karma', serif;
-        animation: ${backgroundTransaction} 10s ease-in-out infinite;
+        background-color: var(--cream);
+        //animation: ${backgroundTransaction} 10s ease-in-out infinite;
     }
 
 

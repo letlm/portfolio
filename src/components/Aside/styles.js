@@ -25,7 +25,7 @@ export const AsideComp = styled.aside`
 export const Box = styled.div`
   width: 160px;
   height: 100vh;
-  background-color: var(--green-1);
+  background-color: var(--pink-2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,5 +73,5 @@ export const Box = styled.div`
 export const Line = styled.div`
   height: 1px;
   width: 100px;
-  background-color: var(--white);
+  background-color: var(--black);
 `;

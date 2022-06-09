@@ -5,10 +5,11 @@ import Header from "../../components/Header";
 import Home from "../../components/Home";
 import Nav from "../../components/Nav";
 import MediaQuery from "react-responsive";
+import { Container } from "./styles";
 
 function Dashboard() {
   return (
-    <>
+    <Container>
       <Header>
         <MediaQuery maxWidth={699}>
           <Aside />
@@ -19,7 +20,7 @@ function Dashboard() {
       </Header>
       <Home />
       <Footer />
-    </>
+    </Container>
   );
 }
 

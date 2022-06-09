@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.footer`
-  height: 80px;
+  height: 8vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--green-1);
+  background-color: var(--pink-3);
   box-shadow: 0px -3px 13px -1px rgba(0, 0, 0, 0.41);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 

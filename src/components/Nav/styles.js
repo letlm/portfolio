@@ -6,8 +6,8 @@ export const Container = styled.nav`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
-  background-color: var(--green-1);
+  height: 8vh;
+  background-color: var(--pink-3);
   box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.41);
 
   h1 {
