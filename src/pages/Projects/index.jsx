@@ -7,8 +7,8 @@ import { Container } from "./styles";
 function Projects() {
   return (
     <Container>
-      <Header>
-        <Aside />
+      <Header className="header">
+        <Aside className="aside" />
         <h1>Projetos</h1>
       </Header>
       <DoneProjects />
