@@ -38,7 +38,7 @@ export const Projects = styled.div`
   width: 70%;
   height: 950px;
   gap: 1vw;
-  background-color: var(--pink-2);
+  background-color: var(--cream);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,5 +112,11 @@ export const Figure = styled.figure`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .techs {
+    width: 40px;
+    height: 40px;
+    border: none;
   }
 `;
