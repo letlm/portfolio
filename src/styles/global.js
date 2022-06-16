@@ -26,12 +26,13 @@ export default createGlobalStyle`
         --pink-1:  #F1D1D0;
         --pink-2: #FBACCC;
         --pink-3: #F875AA;
+        --pink-4: #ff90e8;
         --black: #000000;
         --white: #FFFFFF;
     }
 
     body {
-        height: 100vh;
+  
         width: 100%;
         //background: linear-gradient(-45deg, #F6E7D8, #F68989, #C65D7B, #874356);
         //background-size: 400% 400%;

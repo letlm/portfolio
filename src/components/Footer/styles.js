@@ -9,6 +9,7 @@ export const Container = styled.footer`
   flex-direction: column;
   background-color: var(--pink-3);
   box-shadow: 0px -3px 13px -1px rgba(0, 0, 0, 0.41);
+  z-index: 9;
   position: fixed;
   bottom: 0;
   left: 0;

@@ -9,9 +9,12 @@ function Projects() {
     <Container>
       <Header className="header">
         <Aside className="aside" />
-        <h1>Projetos</h1>
+        <h1>Meus Projetos</h1>
       </Header>
-      <DoneProjects />
+      <div className="test">
+        <h1>Projetos desenvolvidos ao longo da minha experiência</h1>
+        <DoneProjects />
+      </div>
       <Footer />
     </Container>
   );

@@ -9,25 +9,25 @@ function DoneProjects() {
         {projects.map((project, index) => (
           <Projects key={index}>
             <Figure>
-              <figcaption>{project.title}</figcaption>
               <div id="efect">
                 <img src={project.img} alt="BurguerKenzie" className="image" />
                 <p id="comentario">{project.description}</p>
               </div>
+              <figcaption>{project.title}</figcaption>
               <div className="buttons">
                 <a
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="btn">Demo</Button>
+                  <Button className="button">Demo</Button>
                 </a>
                 <a
                   href={project.repo}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className="btn">Repositório</Button>
+                  <Button className="button">Repositório</Button>
                 </a>
               </div>
 

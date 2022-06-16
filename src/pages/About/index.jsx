@@ -1,20 +1,23 @@
+import AboutComponent from "../../components/AboutComponent";
 import Aside from "../../components/Aside";
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
-// import { Container } from './styles';
+import { Container, Context } from "./styles";
 
 function About() {
   return (
-    <>
-      <Header>
+    <Container>
+      <Header className="header">
         <Aside />
         <h1>Sobre mim</h1>
       </Header>
-
+      <Context>
+        <AboutComponent />
+      </Context>
       <Footer />
-    </>
+    </Container>
   );
 }
 

@@ -27,7 +27,7 @@ export const projects = [
     repo: "https://github.com/letlm/kenzieBurguer-REACT",
     react: "https://i.imgur.com/kjwP6rK.png",
     description:
-      "Aplicação que simula uma hamburgueria, podendo adicionar apenas uma unicade de cada produto. Além disso, ainda apresenta o valor total do carrinho, sendo possível remover os produtos do carrinho.",
+      "Simula uma hamburgueria, podendo adicionar apenas uma unicade de cada produto. Além disso, ainda apresenta o valor total do carrinho, sendo possível remover os produtos do carrinho.",
   },
   {
     id: 4,
@@ -49,15 +49,15 @@ export const projects = [
     description:
       "Simulação de um carrinho de ecommerce feita com redux, utilizando o redux-thunk para que os produtos adicionados permaneçam no carrinho e sejam removidos apenas pelo usuário.",
   },
-  {
-    id: 6,
-    title: "BeraTop - Em grupo",
-    img: "https://www.google.com.br/",
-    demo: "https://www.google.com.br/",
-    repo: "https://www.google.com.br/",
-    react: "https://i.imgur.com/kjwP6rK.png",
-    description: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "BeraTop - Em grupo",
+  //   img: "https://www.google.com.br/",
+  //   demo: "https://www.google.com.br/",
+  //   repo: "https://www.google.com.br/",
+  //   react: "https://i.imgur.com/kjwP6rK.png",
+  //   description: "",
+  // },
   {
     id: 7,
     title: "Portfólio",
