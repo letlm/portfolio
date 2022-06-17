@@ -8,7 +8,7 @@ import LinkedinIcon from "../../assets/Linkedin.svg";
 import GmailIcon from "../../assets/Gmail.svg";
 import BtnClose from "../../assets/Close.png";
 import MenuIcon from "../../assets/Menu.png";
-import CVLeticia from "../../assets/CVLeticia.pdf";
+import CVLeticia from "../../assets/Currículo Letícia Leal Moreira.pdf";
 
 function Aside() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -63,8 +63,8 @@ function Aside() {
                 Currículo
               </a>
             </Button>
-            <Line />
-            <Button className="btnNav">Contato</Button>
+            {/* <Line />
+            <Button className="btnNav">Contato</Button> */}
             <Line />
             <a href={Linkedin} target="_blank" rel="noopener noreferrer">
               <img src={LinkedinIcon} alt="Linkedin" />
