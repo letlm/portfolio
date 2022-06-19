@@ -11,9 +11,7 @@ function Footer() {
   return (
     <Container>
       <Info>
-        <h1>Feito por Letícia Leal Moreira </h1>
-        <p>-</p>
-        <h2>Front End Developer</h2>
+        <h1>Feito por Letícia Leal Moreira - Front End Developer</h1>
       </Info>
       <Contact>
         <a href={Linkedin} target="_blank" rel="noopener noreferrer">

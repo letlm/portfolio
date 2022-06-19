@@ -16,6 +16,14 @@ export const Container = styled.nav`
     justify-content: center;
     color: var(--black);
     cursor: pointer;
+
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+
+    :hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
   }
 `;
 
@@ -35,6 +43,25 @@ export const Infos = styled.div`
     font-family: "Karma", serif;
     font-weight: 700;
     text-transform: uppercase;
+
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+
+    :hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+  .linkedin,
+  .github,
+  .gmail {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+
+    :hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
   }
 
   a {

@@ -10,12 +10,11 @@ export const Container = styled.main`
 `;
 export const Context = styled.div`
   margin-top: 25px;
-
   display: flex;
   justify-content: center;
   gap: 2vh;
   align-items: center;
-  width: 70%;
+  width: 90%;
   flex-wrap: wrap;
 `;
 

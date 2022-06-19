@@ -2,7 +2,6 @@ import { Container, Context, Figure, Projects } from "./styles";
 import Button from "../Button";
 import { projects } from "./projects.db";
 function DoneProjects() {
-  console.log(projects);
   return (
     <Container>
       <Context>

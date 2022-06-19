@@ -49,15 +49,16 @@ export const projects = [
     description:
       "Simulação de um carrinho de ecommerce feita com redux, utilizando o redux-thunk para que os produtos adicionados permaneçam no carrinho e sejam removidos apenas pelo usuário.",
   },
-  // {
-  //   id: 6,
-  //   title: "BeraTop - Em grupo",
-  //   img: "https://www.google.com.br/",
-  //   demo: "https://www.google.com.br/",
-  //   repo: "https://www.google.com.br/",
-  //   react: "https://i.imgur.com/kjwP6rK.png",
-  //   description: "",
-  // },
+  {
+    id: 6,
+    title: "BeraTop - EM GRUPO",
+    img: "https://i.imgur.com/DCnr2v9.png",
+    demo: "https://capstone-bera-top.vercel.app/",
+    repo: "https://github.com/letlm/capstone-bera-top",
+    react: "https://i.imgur.com/kjwP6rK.png",
+    description:
+      "Reune diversas marcas de cervejas no qual o usuário pode criar uma conta e deixar sua avaliação e preço sobre as cervejas, além de poder visualizar avaliações de outros usuários.",
+  },
   {
     id: 7,
     title: "Portfólio",

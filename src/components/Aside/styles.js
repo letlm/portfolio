@@ -8,6 +8,7 @@ export const AsideComp = styled.aside`
   .btnOpen {
     background: transparent;
     border: none;
+    margin-top: 5px;
 
     .imgMenu {
       width: 55px;
@@ -35,6 +36,14 @@ export const Box = styled.div`
     font-size: 25px;
     margin-top: 30px;
     cursor: pointer;
+
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+
+    :hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
   }
 
   nav {
@@ -57,10 +66,27 @@ export const Box = styled.div`
     font-family: "Karma", serif;
     font-weight: 700;
     text-transform: uppercase;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+
+    :hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
   }
 
   .btnClose {
     width: 35px;
+  }
+
+  .imgNav {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+
+    :hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
   }
 
   a {

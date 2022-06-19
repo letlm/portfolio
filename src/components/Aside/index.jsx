@@ -63,19 +63,17 @@ function Aside() {
                 Currículo
               </a>
             </Button>
-            {/* <Line />
-            <Button className="btnNav">Contato</Button> */}
             <Line />
             <a href={Linkedin} target="_blank" rel="noopener noreferrer">
-              <img src={LinkedinIcon} alt="Linkedin" />
+              <img className="imgNav" src={LinkedinIcon} alt="Linkedin" />
             </a>
             <Line />
             <a href={Github} target="_blank" rel="noopener noreferrer">
-              <img src={GithubIcon} alt="Github" />
+              <img className="imgNav" src={GithubIcon} alt="Github" />
             </a>
             <Line />
             <a href={Gmail} target="_blank" rel="noopener noreferrer">
-              <img src={GmailIcon} alt="Gmail" />
+              <img className="imgNav" src={GmailIcon} alt="Gmail" />
             </a>
             <Line />
             <Button className="btnNav" onClick={() => setIsDrawerOpen(false)}>

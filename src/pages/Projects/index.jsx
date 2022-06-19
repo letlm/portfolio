@@ -11,10 +11,9 @@ function Projects() {
         <Aside className="aside" />
         <h1>Meus Projetos</h1>
       </Header>
-      <div className="test">
-        <h1>Projetos desenvolvidos ao longo da minha experiência</h1>
-        <DoneProjects />
-      </div>
+
+      <DoneProjects />
+
       <Footer />
     </Container>
   );

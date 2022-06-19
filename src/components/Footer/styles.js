@@ -13,12 +13,6 @@ export const Container = styled.footer`
   position: fixed;
   bottom: 0;
   left: 0;
-
-  p {
-    color: var(--black);
-    margin-left: 5px;
-    margin-right: 5px;
-  }
 `;
 
 export const Info = styled.div`
@@ -26,19 +20,10 @@ export const Info = styled.div`
   flex-direction: row;
   align-items: center;
 
-  h1,
-  h2 {
-    color: var(--black);
-
-    font-weight: 300;
-  }
-
   h1 {
-    font-size: 16px;
-  }
-
-  h2 {
+    color: var(--black);
     font-size: 14px;
+    font-weight: 300;
   }
 `;
 

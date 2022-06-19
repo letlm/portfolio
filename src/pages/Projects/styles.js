@@ -14,7 +14,8 @@ export const Container = styled.div`
     align-items: center;
   }
 
-  .test {
-    margin-top: 100px;
+  h1 {
+    color: var(--black);
+    margin-top: 10px;
   }
 `;
