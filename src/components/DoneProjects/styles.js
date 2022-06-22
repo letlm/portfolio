@@ -1,4 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const appear = keyframes`
+  0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+`;
 
 export const Container = styled.main`
   width: 98.8vw;
@@ -16,6 +29,7 @@ export const Context = styled.div`
   align-items: center;
   width: 90%;
   flex-wrap: wrap;
+  animation: ${appear} 1.5s ease 0s 1 normal forwards; ;
 `;
 
 export const Projects = styled.div`

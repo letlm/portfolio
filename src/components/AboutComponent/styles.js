@@ -1,4 +1,28 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const appearLeft = keyframes`
+  0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+`;
+
+const appearPhoto = keyframes`
+  0% {
+		opacity: 0;
+		transform: rotate(-540deg) scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotate(0) scale(1);
+	}
+`;
 
 export const Container = styled.div`
   width: 100%;
@@ -26,6 +50,7 @@ export const Photo = styled.div`
   align-items: center;
   text-align: center;
   border: 2px solid var(--pink-3);
+  animation: ${appearLeft} 1s ease 0s 1 normal none;
 
   img {
     width: 45%;
@@ -33,6 +58,7 @@ export const Photo = styled.div`
     border: 2px solid var(--black);
     border-radius: 8px;
     margin-left: 5px;
+    animation: ${appearPhoto} 2s ease 0s 1 normal none;
   }
 
   .text {
@@ -138,6 +164,7 @@ export const Infos = styled.div`
   width: 90%;
   display: flex;
   flex-direction: column;
+  animation: ${appearLeft} 1s ease 0s 1 normal none;
 
   div {
     margin-left: 00px;
