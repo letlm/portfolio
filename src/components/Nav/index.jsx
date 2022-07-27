@@ -1,7 +1,7 @@
 import GithubIcon from "../../assets/Github.svg";
 import LinkedinIcon from "../../assets/Linkedin.svg";
 import GmailIcon from "../../assets/Gmail.svg";
-import CVLeticia from "../../assets/Currículo Letícia Leal Moreira.pdf";
+import CVLeticia from "../../assets/CurriculoLeticiaLealMoreira.pdf";
 import { useHistory } from "react-router-dom";
 import { Container, Infos } from "./styles";
 import Button from "../Button";

@@ -8,7 +8,7 @@ import LinkedinIcon from "../../assets/Linkedin.svg";
 import GmailIcon from "../../assets/Gmail.svg";
 import BtnClose from "../../assets/Close.png";
 import MenuIcon from "../../assets/Menu.png";
-import CVLeticia from "../../assets/Currículo Letícia Leal Moreira.pdf";
+import CVLeticia from "../../assets/CurriculoLeticiaLealMoreira.pdf";
 
 function Aside() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
